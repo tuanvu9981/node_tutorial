@@ -1,7 +1,13 @@
 const fe_lang = "Javascript";
 const be_lang = "Python"
 
-console.log(module)
+const credentials = {
+  "name": "tuantuan1234",
+  "account_type": ["Github", "GitLab"],
+  "createdAt": "2022-3-24"
+}
+
+// console.log(module)
 /*
 Module {
   id: '.',
@@ -21,3 +27,4 @@ Module {
  */
 
 module.exports = { fe_lang, be_lang }
+module.exports.credentials = credentials;

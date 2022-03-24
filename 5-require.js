@@ -1,5 +1,6 @@
 //const names = require("./4-names")
 const traverse = require("./3-function-traverseList")
+const allNames = require("./4-names-exports")
 
 // console.log(names)
 /*
@@ -22,7 +23,10 @@ Module {
 */
 
 
-traverse.sayHello("Tuan Vu");
-
+// 3.function
 employeeList = ["Rong", "Jiang", "Wei", "JunDa", "KeDa"];
+traverse.sayHello("Tuan Vu");
 traverse.traverseForEachArrow(employeeList);
+
+// 4. names
+console.log(allNames.credentials);

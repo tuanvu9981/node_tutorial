@@ -39,6 +39,6 @@ const traverseForEachFunction = (arr) => {
 // traverseFOR(myList);
 // traverseWHILE(myList);
 // traverseForEachArrow(myList);
-traverseForEachFunction(myList);
+// traverseForEachFunction(myList);
 
 module.exports = { sayHello, traverseForEachArrow }; 
