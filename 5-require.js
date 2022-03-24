@@ -1,5 +1,6 @@
-const names = require("./4-names")
-const sayHello = require("./3-function-traverseList")
+//const names = require("./4-names")
+const traverse = require("./3-function-traverseList")
+const allNames = require("./4-names-exports")
 
 // console.log(names)
 /*
@@ -21,15 +22,11 @@ Module {
 { fe_lang: 'Javascript', be_lang: 'Python' }
 */
 
-// console.log(names.fe_lang)
-// // Javascript
 
-// console.log(names.be_lang)
-// // Python
+// 3.function
+employeeList = ["Rong", "Jiang", "Wei", "JunDa", "KeDa"];
+traverse.sayHello("Tuan Vu");
+traverse.traverseForEachArrow(employeeList);
 
-// arr = [names.fe_lang, names.be_lang]
-// console.log(arr)
-
-// arr.forEach(function (element) {
-//     console.log(element)
-// })
+// 4. names
+console.log(allNames.credentials);
