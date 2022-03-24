@@ -2,3 +2,5 @@
 console.log("Another line");
 
 console.log("New line again");
+
+console.log("VISUAL")
