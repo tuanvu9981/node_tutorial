@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tuanvu9981/node_tutorial/issues"
   },
-  "homepage": "https://github.com/tuanvu9981/node_tutorial#readme"
+  "homepage": "https://github.com/tuanvu9981/node_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
