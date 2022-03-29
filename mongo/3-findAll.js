@@ -12,7 +12,7 @@ async function run() {
         const db = client.db(dbName);
         const collection = db.collection('person');
 
-        const findResult = await collection.find({}); //Return a Cursor Object
+        const findResult = collection.find({}); //Return a Cursor Object
         await findResult.forEach(console.dir); //forEach: function of Cursor Object
 
         //console.log(JSON.stringify(findResult));
