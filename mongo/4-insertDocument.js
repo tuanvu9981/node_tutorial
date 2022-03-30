@@ -11,7 +11,7 @@ async function insertNewDocument() {
 
         // create a new document to insert
         const newPerson = {
-            'fullname': 'New Person',
+            'fullname': 'New Person 1',
             'email': 'newperson@gmail.com',
             'username': 'newperson123',
             'avatarLink': 'default_image.png',
